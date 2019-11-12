@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487616545196",
+    "firebase_url": "https://data-cb32e.firebaseio.com",
+    "project_id": "data-cb32e",
+    "storage_bucket": "data-cb32e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487616545196:android:7b6affc675794948",
+        "android_client_info": {
+          "package_name": "com.example.miappmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487616545196-i0iud0o5v50fgd6d7h6gvqcrub6dbl9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miappmovil",
+            "certificate_hash": "b32be2bc07f28ba7c8c5102893d9901bf1e82241"
+          }
+        },
+        {
+          "client_id": "487616545196-b03pate0u659fb7baf7fv2prucahdk67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8bYWGhxGXyfk3sW8-sDRKOSn1sIH7viA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487616545196-b03pate0u659fb7baf7fv2prucahdk67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
