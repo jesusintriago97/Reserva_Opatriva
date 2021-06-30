@@ -87,7 +87,7 @@ public class Food_detail extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar!=null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Nuestra comida");
+            actionBar.setTitle("Acepta tu reseva");
         }
     }
 

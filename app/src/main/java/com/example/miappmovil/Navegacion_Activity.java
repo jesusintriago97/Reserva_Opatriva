@@ -68,7 +68,7 @@ public class Navegacion_Activity extends AppCompatActivity implements Navigation
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navegacion_);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Gastronomia");
+        toolbar.setTitle("Escoge el tipo  ");
         setSupportActionBar(toolbar);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View view = navigationView.getHeaderView(0);

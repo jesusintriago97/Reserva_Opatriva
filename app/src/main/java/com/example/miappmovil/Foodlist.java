@@ -73,7 +73,7 @@ public class Foodlist extends AppCompatActivity {
 
         //busqueda
         materialSearchBar= findViewById(R.id.searchBar);
-        materialSearchBar.setHint("Busca tu comida fav");
+        materialSearchBar.setHint("Busca");
         //materialSearchBar.setSpeechMode(false);//esta definida en el xml
 
         loadSuggest();// escribe funcion para carga sugerir desde firebase
@@ -183,7 +183,7 @@ public class Foodlist extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar!=null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Muestros Productos");
+            actionBar.setTitle("Escoge a tu gusto");
         }
     }
 
