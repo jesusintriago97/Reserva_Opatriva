@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/ddd"
+    android:background="@drawable/plomo"
     tools:context=".Registro_Activity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,10 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:fontFamily="cursive"
+            android:fontFamily="arial"
             android:gravity="center"
             android:text="Registrate"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
             android:textSize="50dp"
             />
 
@@ -39,10 +39,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFEFE"
+            android:textColor="#0B0B0B"
+            android:textColorHint="#090909"
             android:drawableLeft="@drawable/ic_person_black_24dp"
-            android:drawableTint="#FFFCFC"/>
+            android:drawableTint="#0B0A0A"/>
 
         <EditText
             android:id="@+id/txtApellido"
@@ -59,10 +59,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFEFE"
+            android:textColor="#090909"
+            android:textColorHint="#050505"
             android:drawableLeft="@drawable/ic_person_black_24dp"
-            android:drawableTint="#FFFFFF" />
+            android:drawableTint="#090909" />
 
         <EditText
             android:id="@+id/txtDireccion"
@@ -79,10 +79,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFEFE"
+            android:textColor="#090909"
+            android:textColorHint="#090909"
             android:drawableLeft="@drawable/ic_place_black_24dp"
-            android:drawableTint="#FFFFFF" />
+            android:drawableTint="#090909" />
 
         <EditText
             android:id="@+id/txttelefono"
@@ -100,10 +100,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#FFFDFD"
-            android:textColorHint="#FCFCFC"
+            android:textColor="#090909"
+            android:textColorHint="#090909"
             android:drawableLeft="@drawable/ic_smartphone_black_24dp"
-            android:drawableTint="#FFFFFF"/>
+            android:drawableTint="#090909"/>
 
         <EditText
             android:id="@+id/txtCorreo"
@@ -120,10 +120,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFEFE"
+            android:textColor="#090909"
+            android:textColorHint="#090909"
             android:drawableLeft="@drawable/ic_email_black_24dp"
-            android:drawableTint="#FFFFFF"/>
+            android:drawableTint="#090909"/>
 
         <EditText
             android:id="@+id/txtContraseña"
@@ -140,10 +140,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFEFE"
+            android:textColor="#090909"
+            android:textColorHint="#090909"
             android:drawableLeft="@drawable/ic_lock_black_24dp"
-            android:drawableTint="#FFFFFF"/>
+            android:drawableTint="#090909"/>
         <EditText
             android:id="@+id/txtRcontraseña"
             android:layout_width="match_parent"
@@ -159,10 +159,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#F8F5F5"
-            android:textColorHint="#FFFCFC"
+            android:textColor="#090909"
+            android:textColorHint="#090909"
             android:drawableLeft="@drawable/ic_lock_black_24dp"
-            android:drawableTint="#FFFFFF"/>
+            android:drawableTint="#090909"/>
 
 
         <Button
@@ -175,6 +175,7 @@
             android:background="@drawable/btn_rounded"
             android:elevation="5dp"
             android:text="Registrar"
+            android:textColor="#FDFDFD"
             android:textSize="20dp"/>
     </LinearLayout>
 

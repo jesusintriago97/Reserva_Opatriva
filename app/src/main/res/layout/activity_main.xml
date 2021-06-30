@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    android:background="@drawable/nose"
+    android:background="@drawable/plomo"
     tools:context=".MainActivity">
     <ImageView
         android:id="@+id/imageView2"
@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_restaurant" />
+        android:src="@drawable/hotel" />
 
     <EditText
         android:id="@+id/txtcoorreo"
@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         android:drawableLeft="@drawable/ic_person_black_24dp"
-        android:drawableTint="#ADACAC"
+        android:drawableTint="#040404"
         />
 
     <EditText
@@ -66,7 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtcoorreo"
         android:drawableLeft="@drawable/ic_lock_black_24dp"
-        android:drawableTint="#ADACAC" />
+        android:drawableTint="#040404" />
 
     <Button
         android:id="@+id/btniniciarsecion"
@@ -75,7 +75,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/btn_rounded"
+        android:background="@drawable/btn_rounded2"
         android:text="@string/iniciarsesion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
